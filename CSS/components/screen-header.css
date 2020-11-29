@@ -6,10 +6,16 @@
   padding: var(--horizontal-space);
   margin-bottom: 15px;
 }
+
 .screan-header__title {
   font-size: 28px;
   font-weight: 600;
 }
+
+.screan-header__icons {
+  position: relative;
+}
+
 .screan-header__icons span {
   margin-left: 25px;
 }
