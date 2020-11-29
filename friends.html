@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <!-- Status Bar / 03.png -->
+    <!-- Status Bar -->
     <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
@@ -25,13 +25,77 @@
         </div>
     </div>
 
-    <!-- nav-bar / 03.png -->
+    <!-- Screen-Header -->
+    <header class="screen-header">
+        <h1 class="screan-header__title">Friends</h1>
+        <div class="screan-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
+            <span><i class="fas fa-cog fa-lg"></i></span>
+        </div>
+    </header>
+
+    <!-- Friends' Names Display-Bar / 03.png -->
+    <a id="friends-display-link">
+        <i class="fas fa-info-circle"></i>
+        Friends' Names Display
+        <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="friends-screen">
+        <!-- User-Component -->
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="https://post-phinf.pstatic.net/MjAxODExMDhfMTg5/MDAxNTQxNjU1MDE5ODM3.7sJ4R4GuQWoPCMY-C-8seHZQGYt6-CVQ1UaAI8xMExUg.xoU7qkxMacG_EqYs376_VmhwjnH9HYoUHMDyxZPSi6Yg.JPEG/%EB%8B%AC.jpg?type=w1200" 
+                class="user-component__avatar user-component__avatar--xl">
+                <div class="user-component__text">
+                    <h4 class="user-component__name">Lee-Sang-Hyeon</h4>
+                    <!-- <h6 class="user-component__subtitle">text</h6> -->
+                </div>
+            </div>
+            <div class=user-component__column"><!-- Default --></div>
+        </div>
+        <div class="friends-screen__channel">
+            <div class="friends-screen__channel-header">
+                <span>Channel</span>
+                <i class="fas fa-chevron-up fa-xs"></i>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="https://pht.qoo-static.com/KwGCiEolNEeR9Q4RFOnDtb8Pvqs3LNiQEdE07wMCnoULO3yLUprHbGGLBYNEt8k7WJY=w512" 
+                    class="user-component__avatar user-component__avatar--sm">
+                    <div class="user-component__text">
+                        <h4 class="user-component__name user-component__name--not-bold">
+                            Channel
+                        </h4>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span>2</span>
+                    <i class="fas fa-chevron-right fa-xs"></i>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+
+    <!-- nav-bar -->
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="fas fa-user fa-2x"></i></a></li>
-            <li class="nav__btn"><a class="nav__link" href="#"><i class="far fa-comment fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#">
+                    <span class="nav__notification">1</span>
+                    <i class="far fa-comment fa-2x"></i>
+                </a>
+            </li>
             <li class="nav__btn"><a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></a></li>
-            <li class="nav__btn"><a class="nav__link" href="#"><i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#">
+                    <span class="nav__notification"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
+            </li>
         </ul>
     </nav>
 
