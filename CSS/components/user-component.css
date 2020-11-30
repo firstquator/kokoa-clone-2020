@@ -1,6 +1,5 @@
 .user-component {
   justify-content: space-between;
-  margin-bottom: 30px;
 }
 
 .user-component,
@@ -38,10 +37,19 @@
 }
 
 .user-component__subtitle {
-  margin-top: 8px;
+  display: flex;
+  margin-top: 15px;
   font-size: 17px;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__phone {
+  margin-right: 7px;
+}
+
+.user-component__subtitle i {
+  color: tomato;
 }
 
 .user-component__column:last-child {

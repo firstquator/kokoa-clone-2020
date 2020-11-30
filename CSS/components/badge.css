@@ -22,3 +22,9 @@
   top: -6px;
   right: -3px;
 }
+
+.badge__more {
+  position: absolute;
+  top: -30px;
+  right: 10px;
+}

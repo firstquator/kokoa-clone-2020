@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More - Kokoa Clone</title>
+</head>
+<body>
+
+    <!-- Status Bar -->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span class="bold">18:43</span>    
+        </div>
+        <div class="status-bar__column">
+            <i class="fas fa-lock-open"></i>
+            <span>110%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+        </div>
+    </div>
+
+    <!-- Screen-Header -->
+    <header class="screen-header">
+        <h1 class="screan-header__title">More</h1>
+        <div class="screan-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
+            <span><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a></span>
+            <span class="badge badge-sm badge__find"></span>
+        </div>
+    </header>
+
+    <!-- main / 06.png -->
+    <main class="main-screen more-screen">
+        <!-- User Component -->
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="https://post-phinf.pstatic.net/MjAxODExMDhfMTg5/MDAxNTQxNjU1MDE5ODM3.7sJ4R4GuQWoPCMY-C-8seHZQGYt6-CVQ1UaAI8xMExUg.xoU7qkxMacG_EqYs376_VmhwjnH9HYoUHMDyxZPSi6Yg.JPEG/%EB%8B%AC.jpg?type=w1200" 
+                class="user-component__avatar user-component__avatar--xl">
+                <div class="user-component__text">
+                    <h4 class="user-component__name">Lee-Sang-Hyeon</h4>
+                    <div class="user-component__subtitle">
+                        <h6 class="user-component__phone">+86 010-6321-4693</h6>
+                        <i class="fas fa-exclamation-circle"></i>
+                    </div>
+                </div>
+            </div>
+            <div class=user-component__column">
+                <i class="far fa-list-alt fa-2x"></i>
+            </div>
+        </div>
+
+        <!-- Icons row : first -->
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="far fa-calendar-check"></i>
+                <span class="bold">Calender</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fas fa-inbox"></i>
+                <span class="bold">Talk Drive</span>
+                <span class="badge badge-sm badge__more"></span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="far fa-smile"></i>
+                <span class="bold">Emailcons</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fas fa-brush"></i>
+                <span class="bold">Themes</span>
+            </div>
+        </div>
+        <!-- Icons row : Second -->
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="fas fa-map-marked-alt"></i>
+                <span class="bold">Account</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="far fa-comments"></i>
+                <span class="bold">Openchat</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fas fa-plus"></i>
+                <span class="bold empty">empty--</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fas fa-plus"></i>
+                <span class="bold empty">empty--</span>
+            </div>
+        </div>
+
+        <!-- Suggetinos / 06.png -->
+        <div class="more-suggestions">
+            <h4 class="more-suggestions__title">Suggetions</h4>
+            <div class="more-suggestions__icons">
+                <!-- Icon : Kokoa Story -->
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <img src="https://lh3.googleusercontent.com/proxy/4p4qj9XhmSb7mWRvxSt5ZAABWgXSDfyuAsw0Vecz6qrGwQz-nPiY7jxqbd88bMP0Q_oVotEh0qtS61LTRhAGNYY_5S4-yjWp9b49snUlu8FGmWipnCDazLQ1KbhaT11hcEtQV_EWkVwmiQ0BZGBDiLW6IOZOnrMaYTBSqmZvVadbby_4D60Iw_nqWMtzMn710Tjz">
+                    </div>
+                    <span class="more-suggestions__icon-text">Kokoa Story</span>
+                </div>
+                <!-- Icon : Kokoa Friends -->
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <img src="https://m.media-amazon.com/images/S/aplus-media/sc/b865fbe6-816a-439e-a43b-146b727372a0.__CR0,0,300,300_PT0_SX300_V1___.png">
+                    </div>
+                    <span class="more-suggestions__icon-text">Kokoa friends</span>
+                </div>
+                <!-- Icon : Friends Gem -->
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY-tylBhNOrPAo0eY0vDPUXnyvB-PEc4-Bqg&usqp=CAU">
+                    </div>
+                    <span class="more-suggestions__icon-text">Friends Gem</span>
+                </div>
+            </div>
+        </div>
+    </main>    
+
+    <!-- nav-bar -->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification">1</span>
+                    <i class="far fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__notification badge"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <script src="https://kit.fontawesome.com/9323719bfa.js" crossorigin="anonymous">
+    </script>    
+</body>
+</html>
