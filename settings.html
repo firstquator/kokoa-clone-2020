@@ -24,19 +24,103 @@
         </div>
     </div>
 
-    <!-- Screen-Header -->
-    <header class="screen-header">
-        <h1 class="screan-header__title">More</h1>
-        <div class="screan-header__icons">
-            <span><i class="fas fa-search fa-lg"></i></span>
-            <span><i class="fas fa-music fa-lg"></i></span>
-            <span><a href="settings.html"><i fas fa-cog fa-lg"></i></a></span>
-            <span class="badge badge-sm badge__find"></span>
+    <!-- Alt-Screen-Header -->
+    <header class="alt-header">
+        <div class="alt-header-column">
+            <a href="more.html">
+                <i class="fas fa-angle-left fa-2x"></i>
+            </a>
+        </div>
+        <div class="alt-header-column">
+            <h1 class="alt-header__title">Settings</h1>
+        </div>
+        <div class="alt-header-column">
+            <i class="fas fa-search fa-lg"></i>
         </div>
     </header>
 
-    <main >
-       
+    <!-- main : Setting-Screen / 07.png -->
+    <main class="main-screen">
+        <!-- First -->
+       <ul class="settings-list">
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-bullhorn"></i>
+                    <span class="bold">Notices</span>
+                </div>
+                <div class="settings__setting-column"></div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-flask"></i>
+                    <span class="bold">Kokoa Lab</span>
+                </div>
+                <div class="settings__setting-column"></div>
+            </li>
+            <li class="settings__setting none-border">
+                <div class="settings__setting-column">
+                    <i class="fas fa-info-circle"></i>
+                    <span class="bold">Version</span>
+                </div>
+                <div class="settings__setting-column">Lastest Version</div>
+            </li>
+            <div class="settings__setting none-main"></div>
+       </ul>
+       <!-- Second -->
+       <ul class="settings-list">
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+                <i class="fas fa-lock"></i>
+                <span class="bold">Privacy</span>
+            </div>
+            <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+                <i class="far fa-bell"></i>
+                <span class="bold">Notifications</span>
+            </div>
+            <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+                <i class="fas fa-user-friends"></i>
+                <span class="bold">Friends</span>
+            </div>
+            <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+                <i class="far fa-comment"></i>
+                <span class="bold">Chats</span>
+            </div>
+            <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+                <i class="fas fa-tv"></i>
+                <span class="bold">Display</span>
+                <span class="badge badge settings__setting-column__badge">N</span>
+            </div>
+            <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+                <i class="fas fa-brush"></i>
+                <span class="bold">Themes</span>
+                <span class="badge settings__setting-column__badge">N</span>
+            </div>
+            <div class="settings__setting-column">Default Themes</div>
+        </li>
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+                <i class="fas fa-phone-alt"></i>
+                <span class="bold">Call</span>
+            </div>
+            <div class="settings__setting-column"></div>
+        </li>
+        
+   </ul>
     </main>    
     <!-- nav-bar -->
     <nav class="nav">
