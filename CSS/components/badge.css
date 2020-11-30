@@ -17,7 +17,7 @@
   display: flex;
 }
 
-.find-badge {
+.badge__find {
   position: absolute;
   top: -6px;
   right: -3px;
