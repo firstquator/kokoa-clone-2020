@@ -9,7 +9,7 @@
 <body id="chat-screen">
 
     <!-- Status Bar -->
-    <div class="status-bar status-bar-dark">
+    <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
             <i class="fas fa-wifi"></i>
@@ -23,6 +23,7 @@
             <i class="fas fa-battery-full fa-lg"></i>
         </div>
     </div>
+    
 
     <!-- Alt-Screen-Header -->
     <header class="alt-header">
@@ -41,8 +42,48 @@
     </header>
 
     <!-- main : Setting-Screen / 07.png -->
-    <main class="main-screen">
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Tuesday, December 01, 2020
+        </div>
+        <!-- chatting / 09.png -->
+        <div class="message-row">
+            <img src="https://www.filepicker.io/api/file/8zhcu9oTtiFw9jQSglsR">
+            <div class="message-row__content">
+                <span class="message__author">Nicolas Serrano</span>
+                <div class="message__info">
+                    <span class="message__bubble bold">Hi!</span>
+                    <span class="message__time">00:15</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble bold">I Love You, Nico !</span>
+                    <div class=message__checker>
+                        <span class="message__readcheck">1</span>
+                        <span class="message__time">18:43</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
+
+    <!-- KeyBoard / 09.png -->
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-2x"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message...">
+            <i class="far fa-smile fa-lg"></i>
+            <button>
+              <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+            
+    </form>
     <script src="https://kit.fontawesome.com/9323719bfa.js" crossorigin="anonymous">
     </script>    
 </body>
