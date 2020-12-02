@@ -18,6 +18,11 @@
   display: flex;
 }
 
+.badge__nav__more {
+  position: absolute;
+  right: -3px;
+}
+
 .badge__find {
   position: absolute;
   top: -6px;
